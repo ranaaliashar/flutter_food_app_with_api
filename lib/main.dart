@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meal_app/controller/meal_controller.dart';
 import 'package:meal_app/views/home_screen.dart';
+import 'package:meal_app/views/tetfile.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const HomeScreen(),
+        home: const TestFile(),
       ),
     );
   }
